@@ -40,8 +40,6 @@ def load_models():
     global movies, movies_names, similarity
 
     if os.path.exists("movies.pkl") and os.path.exists("similarity.pkl"):
-        st.text("Loading models...")
-        
         movies = pickle.load(open("movies.pkl", "rb"))
         similarity = pickle.load(open("similarity.pkl", "rb"))
         
@@ -69,9 +67,12 @@ def recommend(movie):
 st.title("Movie Recommendation System")
 
 #Step 1: Ensure models are loaded or generated
-with st.spinner("Checking and loading model files..."):
+with st.spinner("Checking files..."):
     check_and_run_notebook()
+    
+with st.spinner("Loading files..."):
     movies, similarity = load_models()
+    movies_names = movies["title"].values
 
 # Step 2: Show the appropriate status message
 if movies is not None and similarity is not None:
