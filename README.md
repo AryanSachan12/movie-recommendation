@@ -30,8 +30,7 @@ To run the application locally, you will need to have the following libraries in
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
-    cd <repository_directory>
+    git clone [<repository_url>](https://github.com/AryanSachan12/movie-recommendation.git)
     ```
 
 2. Install the necessary libraries:
