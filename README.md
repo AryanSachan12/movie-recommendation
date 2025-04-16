@@ -6,7 +6,7 @@ This is a web-based movie recommendation system built with **Streamlit**, **Pyth
 
 You can try out the live demo of the Movie Recommendation System here:
 
-[Movie Recommendation System - Live Demo](https://aryansachan12-movie-recommendation-app-t9pbwk.streamlit.app/)](https://aryansachan12-movie-recommendation-app-pomfkx.streamlit.app/)
+[Movie Recommendation System - Live Demo](https://aryansachan12-movie-recommendation-app-t9pbwk.streamlit.app/)](https://aryansachan12-movie-recommendation-app-pomfkx.streamlit.app)
 
 ## Features
 
